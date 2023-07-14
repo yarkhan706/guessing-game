@@ -1,0 +1,79 @@
+#main-header{
+    color: #ddead1;
+    background-image:linear-gradient(90deg, #658354 ,#75975e) ;
+    border-left: dotted 3px  #4b6043 ;
+    padding: 10px;
+    text-align: start;
+}
+
+*{
+    cursor: pointer;
+}
+
+body{
+    background-color: #c7ddb5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.total-guess{
+    background-image:linear-gradient(90deg, #658354 ,#75975e);
+    border-radius: 10px;
+    color: #ddead1;
+    padding: 5px;
+    display: flex;
+}
+
+.main-div{
+  display: flex;
+  background-image:linear-gradient(90deg, #658354 ,#75975e);
+  margin: 10px;
+  color: #ddead1;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2px;
+  border-radius: 10px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#text-box{
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+#mybtn{
+
+    border: outset 1px #4b6043;
+    background-color: #4b6043;
+    color: #ddead1;
+    
+}
+
+
+#mybtn:active{
+    
+    background-color: #ddead1;
+    border: #4b6043 0.1px inset;
+    font-weight: 550;
+    color: #4b6043;
+
+
+}
+
+*::selection{
+    background-color: #4b6043;
+    color: #ddead1;
+}
